@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { generateAndSendDailyReport } = require('../services/reportService');
+const { cleanOldLogs } = require('../services/logCleanupService');
+const config = require('../config/config');
 
 // Health check endpoint
 router.get('/health', (req, res) => {
@@ -23,6 +25,24 @@ router.post('/trigger-daily-report', async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Failed to send daily report',
+      error: error.message
+    });
+  }
+});
+
+// Manual trigger endpoint for log cleanup
+router.post('/cleanup-logs', async (req, res) => {
+  try {
+    const days = req.body?.days || config.logRetentionDays;
+    const result = await cleanOldLogs(days);
+    res.status(200).json({
+      success: true,
+      result
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Failed to clean logs',
       error: error.message
     });
   }

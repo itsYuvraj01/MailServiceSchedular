@@ -5,6 +5,8 @@ require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
 module.exports = {
   port: process.env.PORT || 3000,
   cronSchedule: process.env.CRON_SCHEDULE || '0 9 * * *',
+  logCleanupSchedule: process.env.LOG_CLEANUP_CRON || '0 0 * * *',
+  logRetentionDays: parseInt(process.env.LOG_RETENTION_DAYS || '3', 10),
   timezone: process.env.TIMEZONE || 'Asia/Kolkata',
 
   // Mail settings

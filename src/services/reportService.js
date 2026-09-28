@@ -120,23 +120,17 @@ const generateAndSendDailyReport = async (params = {}) => {
     // 1. Generate HTML Email Template
     const htmlContent = generateDailyReportTemplate(data, reportDate);
 
-    // 2. Generate two Excel Attachments for full data
-    const ppFlexiExcelBuffer = await generateExcelBuffer(ppFlexiData, 'PP_Flexi_Performance', reportDate);
-    const peExcelBuffer = await generateExcelBuffer(peData, 'PE_Performance', reportDate);
-
+    // 2. Generate single merged Excel Attachment for full data
+    const combinedData = [...ppFlexiData, ...peData];
+    const excelBuffer = await generateExcelBuffer(combinedData, 'APP & Sales Performance', reportDate);
 
     const formattedDate = getFormattedDateString(reportDate);
     const fileDateStr = formattedDate.replace(/\./g, '_');
 
     const attachments = [
       {
-        filename: `PP_Flexi_Performance_Report_${fileDateStr}.xlsx`,
-        content: ppFlexiExcelBuffer,
-        contentType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-      },
-      {
-        filename: `PE_Performance_Report_${fileDateStr}.xlsx`,
-        content: peExcelBuffer,
+        filename: `APP & Sales Performance Report _${fileDateStr}.xlsx`,
+        content: excelBuffer,
         contentType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
       }
     ];
@@ -151,7 +145,7 @@ const generateAndSendDailyReport = async (params = {}) => {
       attachments
     });
 
-    logger.info('Daily report successfully sent with 2 Excel attachments.');
+    logger.info('Daily report successfully sent with 1 Excel attachment.');
     return {
       messageId: info.messageId,
       subject: emailSubject,

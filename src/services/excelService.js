@@ -19,7 +19,7 @@ const getMonthYearLabel = (date = new Date()) => {
  * @returns {Object}
  */
 const normalizeItem = (item, index) => {
-  const srNo = item['Sr. No.'] || item['SrNo'] || item['sr_no'] || index + 1;
+  const srNo = index !== undefined ? index + 1 : (item['Sr. No.'] || item['SrNo'] || item['sr_no'] || 1);
   const customerName = item['Customer Name with Group key'] || item['Customer Name'] || item['CustomerName'] || item['CUSTOMER_NAME'] || '';
   const appType = item['APP Type'] || item['APPType'] || item['APP_TYPE'] || '';
   const customerType = item['Customer Type'] || item['CustomerType'] || item['CUSTOMER_TYPE'] || '';
@@ -65,11 +65,11 @@ const normalizeItem = (item, index) => {
 /**
  * Generates an Excel workbook Buffer for a dataset with custom styling
  * @param {Array<Object>} items - Array of data records
- * @param {string} sheetName - Sheet name (e.g. 'PP_Flexi' or 'PE')
+ * @param {string} sheetName - Sheet name
  * @param {Date} [date] - Report date
  * @returns {Promise<Buffer>}
  */
-const generateExcelBuffer = async (items = [], sheetName = 'Report', date = new Date()) => {
+const generateExcelBuffer = async (items = [], sheetName = 'APP & Sales Performance', date = new Date()) => {
   const monthYear = getMonthYearLabel(date);
   const appColHeader = `${monthYear} APP (MTM)`;
   const saleColHeader = `${monthYear} Sale (MTM)`;
@@ -85,11 +85,11 @@ const generateExcelBuffer = async (items = [], sheetName = 'Report', date = new 
   // Define Columns
   worksheet.columns = [
     { header: 'Sr. No.', key: 'srNo', width: 10 },
-    { header: 'Customer Name with Group key', key: 'customerName', width: 45 },
+    { header: 'Customer Name with Group key', key: 'customerName', width: 35 },
     { header: 'APP Type', key: 'appType', width: 14 },
     { header: 'Customer Type', key: 'customerType', width: 18 },
-    { header: appColHeader, key: 'appVal', width: 30 },
-    { header: saleColHeader, key: 'saleVal', width: 30 },
+    { header: appColHeader, key: 'appVal', width: 20 },
+    { header: saleColHeader, key: 'saleVal', width: 20 },
     { header: 'Ach%', key: 'achPercent', width: 14 }
   ];
 

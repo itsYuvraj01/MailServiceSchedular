@@ -140,15 +140,12 @@ const generateDailyReportTemplate = (data = {}, date = new Date()) => {
 
         <div style="margin-top: 25px; font-family: Arial, Calibri, sans-serif; font-size: 13px; line-height: 1.45; color: #004080;">
           <p style="margin: 0 0 2px 0; color: #004080;">Regards</p>
-          <p style="margin: 0 0 2px 0; font-weight: bold; font-size: 14px; color: #002d62;">Vikas Yadav</p>
-          <p style="margin: 0 0 2px 0; color: #004080;">Manager (PC-M)</p>
-          <p style="margin: 0 0 2px 0; color: #004080;">Planning & Business Development Corporate Office,</p>
+          <p style="margin: 0 0 2px 0; font-weight: bold; font-size: 14px; color: #002d62;">IOCL Team</p>
+          <p style="margin: 0 0 2px 0; color: #004080;">Planning & Business Development</p>
           <p style="margin: 0 0 2px 0; color: #004080;">Indian Oil Corporation Limited,</p>
           <p style="margin: 0 0 2px 0; color: #004080;">10th Floor, Block-2, NBCC Commercial complex,</p>
           <p style="margin: 0 0 2px 0; color: #004080;">East Kidwai Nagar,</p>
           <p style="margin: 0 0 2px 0; color: #004080;">New Delhi &ndash; 110023</p>
-          <p style="margin: 0 0 2px 0; color: #004080;">Landmark: Opposite AIIMS</p>
-          <p style="margin: 0 0 8px 0; color: #004080;">Mob No: 8874361183</p>
           <div>
             <img src="cid:footerLogo" alt="PROPEL" style="display: block; width: 170px; height: auto;" />
           </div>
