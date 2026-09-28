@@ -1,0 +1,28 @@
+{
+  "name": "dailymailschedular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "mssql": "^12.7.2",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^10.0.10",
+    "winston": "^3.19.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,0 +1,1310 @@
+[2026-09-25 14:44:26] [INFO]: =========================================
+[2026-09-25 14:44:26] [INFO]: Daily Mail Scheduler Service started
+[2026-09-25 14:44:26] [INFO]: Server running on port \\.\pipe\916ed27b-e760-4386-ac26-e15022983eba
+[2026-09-25 14:44:26] [INFO]: =========================================
+[2026-09-25 14:44:26] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-25 14:44:41] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-25 14:44:41] [ERROR]: ❌ Database Connection Status: FAILED - Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-25 14:44:41] [INFO]: Registering Daily Cron Job with schedule: "* * * * *" (Timezone: Asia/Kolkata)
+[2026-09-25 14:45:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:45:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:45:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:45:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-25 14:45:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-25 14:45:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-25 14:45:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:45:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:45:16] [INFO]: Email sent successfully: <61eb6e2e-6e4f-f254-1889-69968eb69194@maxworthsystems.com>
+[2026-09-25 14:45:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:46:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:46:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:46:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:46:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-25 14:46:00] [INFO]: Connected to MS SQL Server successfully (Connection pool initialized)
+[2026-09-25 14:46:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:46:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:46:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:46:01] [INFO]: Email sent successfully: <9ac605ac-4dce-799c-4c94-36723a85e902@maxworthsystems.com>
+[2026-09-25 14:46:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:47:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:47:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:47:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:47:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:47:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:47:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:47:01] [INFO]: Email sent successfully: <7d9ad8b7-64a4-307d-8599-56887e487d7e@maxworthsystems.com>
+[2026-09-25 14:47:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:48:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:48:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:48:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:48:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:48:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:48:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:48:01] [INFO]: Email sent successfully: <d65b7104-08e1-b605-79ca-0744a6ced6a9@maxworthsystems.com>
+[2026-09-25 14:48:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:49:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:49:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:49:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:49:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:49:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:49:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:49:01] [INFO]: Email sent successfully: <e678972f-fdbe-17e5-3f44-73d08c732ecb@maxworthsystems.com>
+[2026-09-25 14:49:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:50:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:50:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:50:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:50:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:50:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:50:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:50:01] [INFO]: Email sent successfully: <7a09b401-1af5-2c6d-7bde-a6d87b50ae9c@maxworthsystems.com>
+[2026-09-25 14:50:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:51:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:51:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:51:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:51:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:51:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:51:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:51:01] [INFO]: Email sent successfully: <650d8e73-070c-81fd-3697-69da3872f37f@maxworthsystems.com>
+[2026-09-25 14:51:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:52:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:52:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:52:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:52:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:52:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:52:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:52:01] [INFO]: Email sent successfully: <2c1d2161-9891-18b7-d1d9-55f295ae8177@maxworthsystems.com>
+[2026-09-25 14:52:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:53:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:53:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:53:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:53:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:53:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:53:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:53:01] [INFO]: Email sent successfully: <d6b1c175-0cd8-fed8-92d4-fcd7b985714b@maxworthsystems.com>
+[2026-09-25 14:53:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:54:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:54:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:54:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:54:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:54:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:54:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:54:01] [INFO]: Email sent successfully: <180a0950-026b-3706-c831-c5a420a35d53@maxworthsystems.com>
+[2026-09-25 14:54:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:55:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:55:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:55:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:55:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:55:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:55:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:55:01] [INFO]: Email sent successfully: <cfed7842-632c-a5af-df0c-4809997971d9@maxworthsystems.com>
+[2026-09-25 14:55:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:56:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:56:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:56:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:56:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:56:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:56:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:56:01] [INFO]: Email sent successfully: <1be47b47-59d5-0dd4-28cf-c95d9c19d1c0@maxworthsystems.com>
+[2026-09-25 14:56:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:57:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:57:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:57:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:57:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:57:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:57:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:57:01] [INFO]: Email sent successfully: <865f35b8-5280-9e5b-d6fe-b2b346ecf7d4@maxworthsystems.com>
+[2026-09-25 14:57:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:58:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:58:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:58:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:58:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:58:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:58:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:58:00] [INFO]: Email sent successfully: <26a5bf54-6fd6-ac06-f5f3-697a66018d6f@maxworthsystems.com>
+[2026-09-25 14:58:00] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 14:59:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 14:59:00] [INFO]: Starting daily report generation...
+[2026-09-25 14:59:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 14:59:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 14:59:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 14:59:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 14:59:01] [INFO]: Email sent successfully: <cf0247fa-aa54-f597-cb3a-ca3dcd4cf3e0@maxworthsystems.com>
+[2026-09-25 14:59:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:00:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:00:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:00:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:00:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:00:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:00:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:00:01] [INFO]: Email sent successfully: <9a8ed0a0-7f79-c94b-7723-79f328f01e7a@maxworthsystems.com>
+[2026-09-25 15:00:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:01:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:01:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:01:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:01:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:01:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:01:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:01:01] [INFO]: Email sent successfully: <2621cb79-ce46-4aab-3f0d-8e0c8e8556ac@maxworthsystems.com>
+[2026-09-25 15:01:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:02:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:02:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:02:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:02:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:02:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:02:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:02:00] [INFO]: Email sent successfully: <b8299db7-d113-9696-7479-366a7855d843@maxworthsystems.com>
+[2026-09-25 15:02:00] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:03:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:03:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:03:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:03:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:03:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:03:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:03:00] [INFO]: Email sent successfully: <be79dac7-3a07-59d1-f3bf-7eca6157c99d@maxworthsystems.com>
+[2026-09-25 15:03:00] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:04:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:04:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:04:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:04:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:04:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:04:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:04:01] [INFO]: Email sent successfully: <5647fc1c-a832-195d-6d2d-cfeb8bfa5ef7@maxworthsystems.com>
+[2026-09-25 15:04:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:05:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:05:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:05:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:05:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:05:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:05:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:05:01] [INFO]: Email sent successfully: <a43d62a2-a19d-18a1-ee07-da95b80ca039@maxworthsystems.com>
+[2026-09-25 15:05:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:06:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:06:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:06:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:06:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:06:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:06:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:06:01] [INFO]: Email sent successfully: <1f7f7737-c9ea-2320-f0ad-ff7040da68d8@maxworthsystems.com>
+[2026-09-25 15:06:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:07:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:07:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:07:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:07:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:07:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:07:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:07:01] [INFO]: Email sent successfully: <a8758711-7b1a-9093-30b4-01fee3103ce6@maxworthsystems.com>
+[2026-09-25 15:07:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:08:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:08:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:08:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:08:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:08:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:08:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:08:01] [INFO]: Email sent successfully: <832cce4b-e198-1e64-b88f-dcc4e3017f37@maxworthsystems.com>
+[2026-09-25 15:08:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:09:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:09:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:09:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:09:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:09:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:09:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:09:01] [INFO]: Email sent successfully: <a1affb39-4ee5-d7c3-8ea2-0fa9ee34ac5c@maxworthsystems.com>
+[2026-09-25 15:09:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:10:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:10:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:10:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:10:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:10:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:10:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:10:01] [INFO]: Email sent successfully: <f9a6a916-98be-421a-ae90-9967bde1cfc2@maxworthsystems.com>
+[2026-09-25 15:10:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:11:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:11:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:11:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:11:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:11:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:11:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:11:01] [INFO]: Email sent successfully: <d37822fd-47fe-a954-4139-942f63259e8e@maxworthsystems.com>
+[2026-09-25 15:11:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:12:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:12:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:12:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:12:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:12:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:12:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:12:01] [INFO]: Email sent successfully: <b7179382-1d04-ae97-e938-f122d34f7dbd@maxworthsystems.com>
+[2026-09-25 15:12:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:13:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:13:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:13:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:13:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:13:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:13:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:13:01] [INFO]: Email sent successfully: <f455209c-d9e7-3e0b-c64d-54a192095177@maxworthsystems.com>
+[2026-09-25 15:13:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:14:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:14:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:14:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:14:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:14:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:14:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:14:01] [INFO]: Email sent successfully: <1f573c03-4c2c-5ef6-3b5f-1063fc3a9120@maxworthsystems.com>
+[2026-09-25 15:14:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:15:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:15:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:15:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:15:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:15:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:15:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:15:01] [INFO]: Email sent successfully: <ab40cf0d-2d7f-4ed5-a390-84fd4e614c35@maxworthsystems.com>
+[2026-09-25 15:15:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:16:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:16:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:16:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:16:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:16:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:16:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:16:01] [INFO]: Email sent successfully: <6d448562-f6d6-1a04-74bb-a7be1995cf38@maxworthsystems.com>
+[2026-09-25 15:16:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:17:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:17:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:17:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:17:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:17:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:17:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:17:01] [INFO]: Email sent successfully: <a2c56463-de9f-523d-00e2-d5f928d548ff@maxworthsystems.com>
+[2026-09-25 15:17:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:18:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:18:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:18:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:18:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:18:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:18:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:18:01] [INFO]: Email sent successfully: <5adc8ced-46a7-8e1a-c2d7-5a14d847c3bf@maxworthsystems.com>
+[2026-09-25 15:18:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:19:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:19:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:19:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:19:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:19:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:19:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:19:01] [INFO]: Email sent successfully: <2a31ab6c-73df-ede4-9614-ea254fa35f08@maxworthsystems.com>
+[2026-09-25 15:19:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:20:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:20:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:20:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:20:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:20:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:20:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:20:01] [INFO]: Email sent successfully: <bc0317eb-3a98-8074-59e2-fda7c07a3f2f@maxworthsystems.com>
+[2026-09-25 15:20:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:21:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:21:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:21:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:21:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:21:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:21:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:21:01] [INFO]: Email sent successfully: <d256b6bd-2a7e-a701-fdee-6adb745d2be7@maxworthsystems.com>
+[2026-09-25 15:21:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:22:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:22:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:22:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:22:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:22:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:22:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:22:01] [INFO]: Email sent successfully: <1bd6ff9a-beb1-09be-32a0-1d2c79aaf2c2@maxworthsystems.com>
+[2026-09-25 15:22:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:23:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:23:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:23:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:23:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:23:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:23:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:23:01] [INFO]: Email sent successfully: <89d938b6-3377-8f8a-b110-79d43241024b@maxworthsystems.com>
+[2026-09-25 15:23:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:24:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:24:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:24:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:24:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:24:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:24:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:24:01] [INFO]: Email sent successfully: <4e970fbc-9f9d-0ffc-1a78-b4105109e34d@maxworthsystems.com>
+[2026-09-25 15:24:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:25:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:25:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:25:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:25:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:25:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:25:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:25:01] [INFO]: Email sent successfully: <86a9121d-f6ce-5e38-fcf3-677fa5cf6eb6@maxworthsystems.com>
+[2026-09-25 15:25:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:26:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:26:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:26:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:26:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:26:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:26:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:26:01] [INFO]: Email sent successfully: <11712145-6e73-7fdc-8732-bffa64682cc7@maxworthsystems.com>
+[2026-09-25 15:26:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:27:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:27:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:27:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:27:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:27:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:27:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:27:01] [INFO]: Email sent successfully: <0be8dbb5-38ef-114a-42a8-dc67800dbeb1@maxworthsystems.com>
+[2026-09-25 15:27:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:28:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:28:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:28:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:28:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:28:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:28:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:28:01] [INFO]: Email sent successfully: <4eb8144f-f4b9-de0e-6668-a0f66298d0fc@maxworthsystems.com>
+[2026-09-25 15:28:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:29:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:29:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:29:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:29:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:29:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:29:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:29:01] [INFO]: Email sent successfully: <92233d13-70f3-cde0-9d11-b86bba6bf0d6@maxworthsystems.com>
+[2026-09-25 15:29:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:30:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:30:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:30:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:30:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:30:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:30:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:30:01] [INFO]: Email sent successfully: <57c21042-38dc-d906-dd00-a1e5f4e37e6f@maxworthsystems.com>
+[2026-09-25 15:30:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:31:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:31:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:31:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:31:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:31:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:31:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:31:01] [INFO]: Email sent successfully: <000d9ebe-77e6-e8a0-f8bb-f9754e53e5c4@maxworthsystems.com>
+[2026-09-25 15:31:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:32:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:32:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:32:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:32:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:32:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:32:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:32:01] [INFO]: Email sent successfully: <391659b5-82e6-fe84-2204-4a8f7c23a67d@maxworthsystems.com>
+[2026-09-25 15:32:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:33:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:33:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:33:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:33:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:33:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:33:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:33:01] [INFO]: Email sent successfully: <8d874279-5419-d5de-4331-07305bfa28d0@maxworthsystems.com>
+[2026-09-25 15:33:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:34:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:34:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:34:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:34:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:34:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:34:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:34:01] [INFO]: Email sent successfully: <556a173d-5ba6-9d53-f692-3348b8e71609@maxworthsystems.com>
+[2026-09-25 15:34:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:35:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:35:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:35:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:35:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:35:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:35:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:35:01] [INFO]: Email sent successfully: <c35ec0ea-c455-d84c-79b1-0f80eff3ed37@maxworthsystems.com>
+[2026-09-25 15:35:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:36:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:36:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:36:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:36:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:36:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:36:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:36:01] [INFO]: Email sent successfully: <0a43bc72-52dd-75c7-63bb-b8c5ac961684@maxworthsystems.com>
+[2026-09-25 15:36:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:37:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:37:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:37:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:37:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:37:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:37:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:37:01] [INFO]: Email sent successfully: <2b70b792-3fcb-4f31-4d0a-0e084affee46@maxworthsystems.com>
+[2026-09-25 15:37:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:38:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:38:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:38:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:38:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:38:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:38:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:38:01] [INFO]: Email sent successfully: <287e9c68-454a-65ef-3afd-209335e068ff@maxworthsystems.com>
+[2026-09-25 15:38:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:39:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:39:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:39:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:39:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:39:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:39:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:39:02] [INFO]: Email sent successfully: <5746feb0-8396-c944-2af1-066bc8c92839@maxworthsystems.com>
+[2026-09-25 15:39:02] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:40:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:40:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:40:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:40:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:40:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:40:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:40:01] [INFO]: Email sent successfully: <71ebde2d-4e21-ba30-8f89-83603bacb49b@maxworthsystems.com>
+[2026-09-25 15:40:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:41:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:41:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:41:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:41:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:41:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:41:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:41:01] [INFO]: Email sent successfully: <ba55ba28-3252-7ce5-1651-5ee35c02c9f4@maxworthsystems.com>
+[2026-09-25 15:41:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:42:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:42:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:42:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:42:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:42:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:42:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:42:01] [INFO]: Email sent successfully: <fb203c93-6c07-2c87-1e33-94c46f26d4d5@maxworthsystems.com>
+[2026-09-25 15:42:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:43:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:43:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:43:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:43:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:43:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:43:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:43:01] [INFO]: Email sent successfully: <1449a6d9-bba2-8ad9-b007-f7784e0645d6@maxworthsystems.com>
+[2026-09-25 15:43:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:44:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:44:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:44:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:44:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:44:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:44:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:44:01] [INFO]: Email sent successfully: <bf87e34a-1ca5-2dcd-9a63-3aa23ca726e4@maxworthsystems.com>
+[2026-09-25 15:44:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:45:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:45:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:45:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:45:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:45:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:45:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:45:01] [INFO]: Email sent successfully: <12b0a0a1-c8fe-55e9-8865-944dc2391131@maxworthsystems.com>
+[2026-09-25 15:45:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:46:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:46:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:46:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:46:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:46:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:46:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:46:01] [INFO]: Email sent successfully: <1d64fff7-2f37-235d-76e5-a01e9ec5477e@maxworthsystems.com>
+[2026-09-25 15:46:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:47:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:47:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:47:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:47:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:47:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:47:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:47:01] [INFO]: Email sent successfully: <0a8244f6-10f5-3c75-c6fa-6c192a78f595@maxworthsystems.com>
+[2026-09-25 15:47:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:48:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:48:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:48:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:48:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:48:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:48:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:48:01] [INFO]: Email sent successfully: <e90f1241-e0b2-631d-ed16-58ccf468f19b@maxworthsystems.com>
+[2026-09-25 15:48:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:49:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:49:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:49:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:49:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:49:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:49:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:49:01] [INFO]: Email sent successfully: <80494189-3d11-f344-7ebe-424a2984ee42@maxworthsystems.com>
+[2026-09-25 15:49:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:50:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:50:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:50:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:50:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:50:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:50:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:50:01] [INFO]: Email sent successfully: <bd4931f5-2168-5a79-fce0-c17c1cabdfce@maxworthsystems.com>
+[2026-09-25 15:50:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:51:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:51:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:51:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:51:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:51:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:51:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:51:01] [INFO]: Email sent successfully: <55f43d64-0e1c-0ef7-7d5d-2e16232d1479@maxworthsystems.com>
+[2026-09-25 15:51:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:52:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:52:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:52:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:52:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:52:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:52:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:52:01] [INFO]: Email sent successfully: <55fa5feb-393c-d1cd-e3a4-dfb70cca4e3a@maxworthsystems.com>
+[2026-09-25 15:52:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:53:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:53:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:53:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:53:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:53:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:53:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:53:01] [INFO]: Email sent successfully: <eda3de0e-409a-8567-051e-43128dc68198@maxworthsystems.com>
+[2026-09-25 15:53:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:54:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:54:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:54:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:54:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:54:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:54:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:54:01] [INFO]: Email sent successfully: <49e19906-4990-73f2-943a-3f6d0d226b61@maxworthsystems.com>
+[2026-09-25 15:54:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:55:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:55:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:55:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:55:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:55:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:55:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:55:01] [INFO]: Email sent successfully: <9927debb-02b1-6f30-2575-a881c16f9da2@maxworthsystems.com>
+[2026-09-25 15:55:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:56:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:56:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:56:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:56:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:56:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:56:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:56:01] [INFO]: Email sent successfully: <a83436f8-3e6e-7d1b-73c4-b9cd4e3c0356@maxworthsystems.com>
+[2026-09-25 15:56:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:57:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:57:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:57:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:57:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:57:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:57:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:57:01] [INFO]: Email sent successfully: <017315b1-2b35-7274-b54b-17fcdbf8610f@maxworthsystems.com>
+[2026-09-25 15:57:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:58:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:58:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:58:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:58:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:58:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:58:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:58:01] [INFO]: Email sent successfully: <a3178420-ff30-8017-9675-3c977c680dbd@maxworthsystems.com>
+[2026-09-25 15:58:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 15:59:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 15:59:00] [INFO]: Starting daily report generation...
+[2026-09-25 15:59:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 15:59:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 15:59:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 15:59:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 15:59:01] [INFO]: Email sent successfully: <6d458d5b-9f31-ffee-a6b0-99e116f9f565@maxworthsystems.com>
+[2026-09-25 15:59:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 16:00:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 16:00:00] [INFO]: Starting daily report generation...
+[2026-09-25 16:00:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 16:00:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 16:00:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 16:00:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 16:00:01] [INFO]: Email sent successfully: <5a0e21ce-f406-c2d8-0bb8-c52fa260c4ce@maxworthsystems.com>
+[2026-09-25 16:00:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 16:01:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 16:01:00] [INFO]: Starting daily report generation...
+[2026-09-25 16:01:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 16:01:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 16:01:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 16:01:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 16:01:01] [INFO]: Email sent successfully: <ff3490de-5ea0-5286-65f9-c6afe92ba419@maxworthsystems.com>
+[2026-09-25 16:01:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 16:02:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 16:02:00] [INFO]: Starting daily report generation...
+[2026-09-25 16:02:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 16:02:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 16:02:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 16:02:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 16:02:01] [INFO]: Email sent successfully: <70ed67f2-33a9-177f-6fb7-3cadfdef4ed3@maxworthsystems.com>
+[2026-09-25 16:02:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 16:03:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 16:03:00] [INFO]: Starting daily report generation...
+[2026-09-25 16:03:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 16:03:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Could not find stored procedure 'dbo.USP_APP_TOP30_CUSTOMERS'.
+[2026-09-25 16:03:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 16:03:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 16:03:01] [INFO]: Email sent successfully: <1d48abd9-38c0-124e-5e2f-21896c30b523@maxworthsystems.com>
+[2026-09-25 16:03:01] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 17:38:04] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 17:38:04] [INFO]: Starting daily report generation...
+[2026-09-25 17:38:04] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 17:38:19] [ERROR]: MSSQL Pool Error: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-25 17:38:19] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-25 17:38:19] [INFO]: Using fallback test data after DB failure.
+[2026-09-25 17:38:19] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-25 17:38:21] [INFO]: Email sent successfully: <aeb366b4-4189-c2eb-a19a-b00d7477f457@maxworthsystems.com>
+[2026-09-25 17:38:21] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-25 17:39:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-25 17:39:00] [INFO]: Starting daily report generation...
+[2026-09-25 17:39:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-25 17:39:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:04:46] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:04:47] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:04:47] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:04:47] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:04:51] [INFO]: Email sent successfully: <bf2153a4-ec62-3ebc-387b-01a58184130f@maxworthsystems.com>
+[2026-09-28 10:04:51] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:05:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:05:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:05:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:05:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:05:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:05:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:05:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:05:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:05:16] [INFO]: Email sent successfully: <ca95bdcd-57a2-cba7-0a54-8c8142c22ae8@maxworthsystems.com>
+[2026-09-28 10:05:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:06:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:06:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:06:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:06:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:06:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:06:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:06:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:06:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:06:15] [INFO]: Email sent successfully: <c3986e4c-4c1f-bcf5-188e-4ffab37a4252@maxworthsystems.com>
+[2026-09-28 10:06:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:07:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:07:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:07:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:07:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:07:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:07:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:07:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:07:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:07:16] [INFO]: Email sent successfully: <2590f2f5-868b-f222-8ff1-22ab9e8eb36c@maxworthsystems.com>
+[2026-09-28 10:07:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:08:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:08:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:08:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:08:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:08:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:08:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:08:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:08:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:08:15] [INFO]: Email sent successfully: <49ee47cb-e9e9-6a1b-a786-aec7500b2ccb@maxworthsystems.com>
+[2026-09-28 10:08:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:09:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:09:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:09:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:09:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:09:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:09:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:09:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:09:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:09:15] [INFO]: Email sent successfully: <2125aabe-28a2-8170-a893-7b9148030128@maxworthsystems.com>
+[2026-09-28 10:09:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:10:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:10:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:10:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:10:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:10:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:10:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:10:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:10:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:10:16] [INFO]: Email sent successfully: <b1d9fa33-0462-7092-d566-835c2c28f74d@maxworthsystems.com>
+[2026-09-28 10:10:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:11:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:11:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:11:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:11:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:11:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:11:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:11:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:11:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:11:16] [INFO]: Email sent successfully: <1a8f7a5d-2f61-72e3-be83-afce74c1bf95@maxworthsystems.com>
+[2026-09-28 10:11:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:12:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:12:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:12:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:12:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:12:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:12:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:12:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:12:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:12:16] [INFO]: Email sent successfully: <aba600f0-0cc1-babc-f967-3bc2c704d94e@maxworthsystems.com>
+[2026-09-28 10:12:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:13:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:13:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:13:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:13:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:13:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:13:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:13:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:13:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:13:15] [INFO]: Email sent successfully: <2e8acd55-1367-5e1b-979d-3e90b02ce256@maxworthsystems.com>
+[2026-09-28 10:13:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:14:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:14:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:14:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:14:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:14:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:14:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:14:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:14:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:14:15] [INFO]: Email sent successfully: <afc3c97d-c0ce-2364-5b69-a5496265a1d7@maxworthsystems.com>
+[2026-09-28 10:14:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:15:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:15:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:15:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:15:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:15:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:15:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:15:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:15:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:15:15] [INFO]: Email sent successfully: <fd26cb9f-dce1-3957-d633-62f064465346@maxworthsystems.com>
+[2026-09-28 10:15:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:16:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:16:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:16:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:16:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:16:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:16:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:16:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:16:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:16:16] [INFO]: Email sent successfully: <dc3af8dc-79cf-a7c2-f0fe-756f87a0cfa9@maxworthsystems.com>
+[2026-09-28 10:16:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:17:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:17:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:17:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:17:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:17:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:17:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:17:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:17:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:17:15] [INFO]: Email sent successfully: <c56b3d49-7f10-30b1-a30e-8712671d8cd0@maxworthsystems.com>
+[2026-09-28 10:17:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:18:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:18:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:18:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:18:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:18:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:18:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:18:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:18:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:18:15] [INFO]: Email sent successfully: <86c00905-d795-f537-142a-a440f3f0e02e@maxworthsystems.com>
+[2026-09-28 10:18:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:19:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:19:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:19:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:19:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:19:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:19:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:19:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:19:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:19:15] [INFO]: Email sent successfully: <01fefea9-c3f5-0b45-b7eb-465b4ff12c10@maxworthsystems.com>
+[2026-09-28 10:19:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:20:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:20:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:20:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:20:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:20:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:20:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:20:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:20:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:20:15] [INFO]: Email sent successfully: <87ccfb88-47bf-8169-e937-39904f6b052e@maxworthsystems.com>
+[2026-09-28 10:20:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:21:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:21:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:21:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:21:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:21:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:21:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:21:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:21:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:21:16] [INFO]: Email sent successfully: <80c38e03-48be-1f32-0384-fa38335ee04f@maxworthsystems.com>
+[2026-09-28 10:21:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:22:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:22:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:22:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:22:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:22:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:22:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:22:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:22:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:22:15] [INFO]: Email sent successfully: <82a98eff-59ee-cd35-5fc3-3ae7eef6a092@maxworthsystems.com>
+[2026-09-28 10:22:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:23:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:23:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:23:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:23:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:23:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:23:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:23:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:23:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:23:16] [INFO]: Email sent successfully: <18536319-c5bb-63c9-543c-52731054b242@maxworthsystems.com>
+[2026-09-28 10:23:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:24:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:24:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:24:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:24:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:24:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:24:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:24:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:24:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:24:16] [INFO]: Email sent successfully: <83d004c8-8266-7b87-c545-46a99710e2a3@maxworthsystems.com>
+[2026-09-28 10:24:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:25:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:25:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:25:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:25:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:25:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:25:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:25:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:25:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:25:15] [INFO]: Email sent successfully: <9375a3e5-d2e1-64b6-20f1-f6a29713d39c@maxworthsystems.com>
+[2026-09-28 10:25:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:26:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:26:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:26:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:26:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:26:11] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:26:11] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:26:11] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:26:11] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:26:11] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:26:11] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:27:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:27:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:27:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:27:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:27:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:27:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:27:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:27:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:28:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:28:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:28:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:28:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:28:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:28:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:28:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:28:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:29:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:29:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:29:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:29:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:29:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:29:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:29:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:29:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:30:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:30:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:30:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:30:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:30:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:30:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:30:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:30:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:30:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:30:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:31:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:31:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:31:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:31:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:31:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:402::2:587
+[2026-09-28 10:31:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:402::2:587
+[2026-09-28 10:31:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:31:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:31:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:31:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:32:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:32:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:32:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:32:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:32:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:32:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:32:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:32:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:32:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:32:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:33:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:33:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:33:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:33:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:33:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:33:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:33:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:33:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:33:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:33:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:34:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:34:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:34:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:34:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:34:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:34:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:34:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:34:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:34:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:34:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:35:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:35:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:35:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:35:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:35:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:35:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:35:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:35:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:35:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:35:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:36:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:36:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:36:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:36:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:36:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:36:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:36:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:36:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:36:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:36:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:37:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:37:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:37:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:37:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:37:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:37:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:37:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:37:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:37:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:37:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:38:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:38:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:38:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:38:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:38:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:402::2:587
+[2026-09-28 10:38:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:402::2:587
+[2026-09-28 10:38:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:38:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:38:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:38:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:39:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:39:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:39:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:39:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:39:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:39:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:39:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:39:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:39:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:39:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:40:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:40:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:40:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:40:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:40:03] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:03] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:40:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:40:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:40:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:40:47] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:47] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:47] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:47] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:47] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:40:47] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:41:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:41:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:41:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:41:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:41:00] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:41:00] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:41:00] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:41:00] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:41:00] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:41:00] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 2603:1036:30d:406::2:587
+[2026-09-28 10:42:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:42:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:42:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:42:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:42:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:42:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:42:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:42:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:42:15] [INFO]: Email sent successfully: <2c096f05-5525-cd06-09c4-372b6eed07de@maxworthsystems.com>
+[2026-09-28 10:42:15] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:43:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:43:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:43:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:43:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:43:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:43:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:43:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:43:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:43:16] [INFO]: Email sent successfully: <300e1687-f02d-1342-f207-02c2aad07e07@maxworthsystems.com>
+[2026-09-28 10:43:16] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:44:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:44:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:44:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:44:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:44:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:44:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:44:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:44:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:44:24] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:44:25] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:45:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:45:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:45:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:45:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:45:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:45:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:45:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:45:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:45:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:45:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:46:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:46:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:46:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:46:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:46:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:46:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:46:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:46:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:46:49] [INFO]: Email sent successfully: <31bf10fa-256b-fcbf-6479-5eceb188211e@maxworthsystems.com>
+[2026-09-28 10:46:49] [INFO]: Daily report successfully sent with 2 Excel attachments.
+[2026-09-28 10:47:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:47:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:47:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:47:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:47:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:47:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:47:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:47:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:47:23] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:47:23] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:48:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:48:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:48:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:48:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:48:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:48:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:48:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:48:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:49:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:49:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:49:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:49:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:49:10] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:49:10] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:49:10] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:49:10] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:49:10] [ERROR]: Failed to generate/send daily report: connect ENETUNREACH 52.98.63.18:587
+[2026-09-28 10:49:10] [ERROR]: Error during scheduled report execution: connect ENETUNREACH 52.98.63.18:587
+[2026-09-28 10:49:10] [ERROR]: Failed to generate/send daily report: connect EHOSTUNREACH 52.98.63.18:587
+[2026-09-28 10:49:10] [ERROR]: Error during scheduled report execution: connect EHOSTUNREACH 52.98.63.18:587
+[2026-09-28 10:50:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:50:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:50:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:50:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:50:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:50:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:50:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:50:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:50:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:50:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:51:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:51:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:51:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:51:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:51:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:51:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:51:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:51:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:51:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:51:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:52:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:52:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:52:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:52:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:52:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:52:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:52:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:52:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:52:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:52:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:53:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:53:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:53:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:53:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:53:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:53:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:53:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:53:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:53:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:53:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:54:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:54:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:54:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:54:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:54:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:54:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:54:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:54:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:54:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:54:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:55:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:55:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:55:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:55:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:55:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:55:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:55:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:55:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:55:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:55:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:56:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:56:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:56:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:56:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:56:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:56:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 10:56:15] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:56:15] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:56:53] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:56:53] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:57:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:57:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:57:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:57:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:57:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:57:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:57:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:57:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:57:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:57:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 10:58:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:58:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:58:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:58:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:58:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:58:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:58:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:58:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:58:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:58:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:59:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 10:59:00] [INFO]: Starting daily report generation...
+[2026-09-28 10:59:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 10:59:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 10:59:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:59:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 10:59:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 10:59:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 10:59:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 10:59:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 11:00:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:00:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:00:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:00:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:00:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:00:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:00:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:00:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:00:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:00:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:01:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:01:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:01:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:01:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:01:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:01:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:01:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:01:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:01:13] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:01:13] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:02:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:02:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:02:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:02:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:02:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:02:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:02:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:02:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:02:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:02:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:03:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:03:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:03:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:03:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:03:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:03:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:03:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:03:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:03:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:03:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:04:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:04:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:04:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:04:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:04:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:04:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:04:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:04:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:04:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:04:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:05:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:05:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:05:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:05:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:05:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:05:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:05:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:05:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:05:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:05:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:06:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:06:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:06:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:06:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:06:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:06:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:06:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:06:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:06:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:06:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:07:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:07:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:07:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:07:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:07:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:07:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:07:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:07:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:07:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:07:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 52.98.63.18:587
+[2026-09-28 11:08:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:08:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:08:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:08:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:08:02] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:08:02] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 - Could not connect (sequence)
+[2026-09-28 11:08:02] [INFO]: Using fallback test data after DB failure.
+[2026-09-28 11:08:02] [INFO]: Generating daily report with 30 PP/Flexi and 100 PE records.
+[2026-09-28 11:08:10] [ERROR]: Failed to generate/send daily report: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 11:08:10] [ERROR]: Error during scheduled report execution: connect ECONNREFUSED 40.104.77.194:587
+[2026-09-28 11:09:00] [INFO]: ⏰ Cron trigger fired: Executing scheduled daily report job...
+[2026-09-28 11:09:00] [INFO]: Starting daily report generation...
+[2026-09-28 11:09:00] [INFO]: Executing stored procedure: dbo.USP_APP_TOP30_CUSTOMERS
+[2026-09-28 11:09:00] [INFO]: Connecting to MS SQL Server: 192.168.2.8:1433 [Database: AMS_NEW]
+[2026-09-28 11:09:15] [ERROR]: Database Connection Failed: Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 11:09:15] [ERROR]: Database query failed in getDailyReportData (USP_APP_TOP30_CUSTOMERS): Failed to connect to 192.168.2.8:1433 in 15000ms
+[2026-09-28 11:09:15] [INFO]: Using fallback test data after DB failure.
