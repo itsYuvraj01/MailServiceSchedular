@@ -12,13 +12,13 @@ router.get('/health', (req, res) => {
   });
 });
 
-// Manual trigger endpoint for testing or on-demand report sending
+// Trigger endpoint to generate complete report (fetches both SPs, builds both Excel files, and sends mail)
 router.post('/trigger-daily-report', async (req, res) => {
   try {
     const info = await generateAndSendDailyReport(req.body || {});
     res.status(200).json({
       success: true,
-      message: 'Daily report triggered and sent successfully',
+      message: 'Daily report triggered and sent successfully with both Excel attachments',
       info
     });
   } catch (error) {

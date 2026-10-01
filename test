@@ -1176,4 +1176,73 @@ const data2 = [
   }
 ];
 
-module.exports = { data1, data2 };
+const data3 = [
+  {
+    'Group Name': 'CHIRIPAL GROUP',
+    'Zone Name': 'WZ',
+    'Field Officer Name': 'Rajesh Sharma',
+    'AU/T': 'AU',
+    'Name of the Customer': 'CHIRIPAL POLY FILMS LIMITED',
+    'Sold to Party': '0001001234',
+    'APP Type': 'Contract',
+    'Grade': 'PP',
+    "Apr'26 APP Qty": 4000,
+    "Apr'26 Sales": 3850.5,
+    "Apr'26 APP %": 96.26,
+    "May'26 APP Qty": 4200,
+    "May'26 Sales": 4100.2,
+    "May'26 APP %": 97.62,
+    "Jun'26 APP Qty": 4350,
+    "Jun'26 Sales": 2280.0,
+    "Jun'26 APP %": 52.41,
+    'Total till Prev Month APP Qty': 8200,
+    'Total till Prev Month Sales': 7950.7,
+    'Total till Prev Month APP %': 96.96
+  },
+  {
+    'Group Name': null,
+    'Zone Name': 'EZ',
+    'Field Officer Name': 'Amit Kumar',
+    'AU/T': 'AU',
+    'Name of the Customer': 'SURAJ LOGISTIX PVT. LTD.',
+    'Sold to Party': '0001005678',
+    'APP Type': 'PP',
+    'Grade': 'PP Raffia',
+    "Apr'26 APP Qty": 3000,
+    "Apr'26 Sales": 2900,
+    "Apr'26 APP %": 96.67,
+    "May'26 APP Qty": 3200,
+    "May'26 Sales": 3100,
+    "May'26 APP %": 96.88,
+    "Jun'26 APP Qty": 3300,
+    "Jun'26 Sales": 2462,
+    "Jun'26 APP %": 74.61,
+    'Total till Prev Month APP Qty': 6200,
+    'Total till Prev Month Sales': 6000,
+    'Total till Prev Month APP %': 96.77
+  },
+  {
+    'Group Name': 'UFLEX GROUP',
+    'Zone Name': 'NZ',
+    'Field Officer Name': 'Vikas Verma',
+    'AU/T': 'AU',
+    'Name of the Customer': 'UFLEX LIMITED.',
+    'Sold to Party': '0001009876',
+    'APP Type': 'Contract',
+    'Grade': 'BOPP',
+    "Apr'26 APP Qty": 2500,
+    "Apr'26 Sales": 2400,
+    "Apr'26 APP %": 96.0,
+    "May'26 APP Qty": 2500,
+    "May'26 Sales": 2450,
+    "May'26 APP %": 98.0,
+    "Jun'26 APP Qty": 2500,
+    "Jun'26 Sales": 2267,
+    "Jun'26 APP %": 90.68,
+    'Total till Prev Month APP Qty': 5000,
+    'Total till Prev Month Sales': 4850,
+    'Total till Prev Month APP %': 97.0
+  }
+]
+
+module.exports = { data1, data2, data3 }

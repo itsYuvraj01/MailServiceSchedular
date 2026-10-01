@@ -202,8 +202,275 @@ const generateExcelBuffer = async (items = [], sheetName = 'APP & Sales Performa
   return Buffer.from(buffer);
 };
 
+
+
+/**
+ * Gets formatted date string as DD.MM.YYYY
+ * @param {Date} [date]
+ * @returns {string}
+ */
+const getFormattedDateString = (date = new Date()) => {
+  const d = date instanceof Date ? date : new Date(date);
+  const validDate = isNaN(d.getTime()) ? new Date() : d;
+  const dd = String(validDate.getDate()).padStart(2, '0');
+  const mm = String(validDate.getMonth() + 1).padStart(2, '0');
+  const yyyy = validDate.getFullYear();
+  return `${dd}.${mm}.${yyyy}`;
+};
+
+/**
+ * Generates an Excel workbook Buffer for Grade-Wise APP Performance dataset with custom styling and frozen panes
+ * (Backend version of ExportExcel3)
+ * @param {Array<Object>} data - Array of records returned from usp_APP_vs_Sales_Monthly_Pivot
+ * @param {string|Date} [selectedDate] - Date string or Date object for title (defaults to today's date: DD.MM.YYYY)
+ * @param {string} [zoneCode] - Optional zone filter (e.g. 'CO', 'NZ', etc.)
+ * @returns {Promise<Buffer>}
+ */
+const generateGradeWiseExcelBuffer = async (data = [], selectedDate = getFormattedDateString(new Date()), zoneCode = 'CO') => {
+  let finalData = Array.isArray(data) ? data : [];
+
+  if (zoneCode && zoneCode !== 'CO') {
+    finalData = finalData.filter((i) => (i['Zone Name'] || i['ZONE_NAME']) === zoneCode);
+  }
+
+  if (!selectedDate) {
+    selectedDate = getFormattedDateString(new Date());
+  } else if (selectedDate instanceof Date) {
+    selectedDate = getFormattedDateString(selectedDate);
+  }
+
+  if (finalData.length === 0) {
+    const emptyWb = new ExcelJS.Workbook();
+    emptyWb.creator = 'IOCL Petrochemicals';
+    const ws = emptyWb.addWorksheet('APP Performance');
+    ws.addRow(['No data available for export']);
+    const emptyBuf = await emptyWb.xlsx.writeBuffer();
+    return Buffer.from(emptyBuf);
+  }
+
+  // ── Detect month labels dynamically ──────────────────────────────────────
+  const sampleKeys = Object.keys(finalData[0] || {});
+  const monthPattern = /^([A-Za-z]+'?\d{2}) APP Qty$/;
+  const months = sampleKeys
+    .filter((k) => monthPattern.test(k))
+    .map((k) => k.match(monthPattern)[1]);
+
+  const fixedCols = [
+    'Group Name',
+    'Zone Name',
+    'Field Officer Name',
+    'AU/T',
+    'Name of the Customer',
+    'Sold to Party',
+    'APP Type',
+    'Grade'
+  ];
+
+  // Total columns count
+  const totalCols = fixedCols.length + months.length * 3 + 3;
+
+  // ── Colors ────────────────────────────────────────────────────────────────
+  const COLOR = {
+    titleBg: 'FF0D2137',
+    headerBg: 'FF1F4E79',
+    monthBg: 'FF2E75B6',
+    summaryBg: 'FF375623',
+    subBg: 'FFD6E4F0',
+    summSubBg: 'FFE2EFDA',
+    altRow: 'FFEBF3FB',
+    altSumRow: 'FFD9EAD3',
+    white: 'FFFFFFFF',
+    borderGray: 'FF7F7F7F'
+  };
+
+  const border = {
+    top: { style: 'thin', color: { argb: COLOR.borderGray } },
+    left: { style: 'thin', color: { argb: COLOR.borderGray } },
+    bottom: { style: 'thin', color: { argb: COLOR.borderGray } },
+    right: { style: 'thin', color: { argb: COLOR.borderGray } }
+  };
+
+  const centerAlign = { horizontal: 'center', vertical: 'middle', wrapText: true };
+  const leftAlign = { horizontal: 'left', vertical: 'middle', wrapText: true };
+  const rightAlign = { horizontal: 'right', vertical: 'middle', wrapText: true };
+
+  const makeHeaderFont = (size = 9) => ({
+    name: 'Arial',
+    size,
+    bold: true,
+    color: { argb: COLOR.white }
+  });
+  const makeSubFont = () => ({ name: 'Arial', size: 9, bold: true, color: { argb: 'FF000000' } });
+  const makeDataFont = () => ({ name: 'Arial', size: 9, color: { argb: 'FF000000' } });
+
+  const applyFill = (cell, argb) => {
+    cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb } };
+  };
+
+  // ── Create workbook ───────────────────────────────────────────────────────
+  const workbook = new ExcelJS.Workbook();
+  workbook.creator = 'IOCL Petrochemicals';
+  workbook.created = new Date();
+
+  const ws = workbook.addWorksheet('APP Performance', {
+    views: [{ state: 'frozen', xSplit: fixedCols.length, ySplit: 3, showGridLines: true }]
+  });
+
+  // ── ROW 1: Title ──────────────────────────────────────────────────────────
+  ws.addRow([]); // row 1
+  ws.mergeCells(1, 1, 1, totalCols);
+  const titleCell = ws.getRow(1).getCell(1);
+  titleCell.value = `IOCL Petrochemicals — Grade-Wise APP Performance  |  Date: ${selectedDate}`;
+  titleCell.font = makeHeaderFont(11);
+  applyFill(titleCell, COLOR.titleBg);
+  titleCell.alignment = centerAlign;
+  titleCell.border = border;
+  ws.getRow(1).height = 24;
+
+  // ── ROW 2: Group headers ──────────────────────────────────────────────────
+  ws.addRow([]); // row 2
+
+  let col = 1;
+
+  // Fixed cols — merge rows 2 & 3 vertically
+  fixedCols.forEach((fc) => {
+    ws.mergeCells(2, col, 3, col);
+    const cell = ws.getRow(2).getCell(col);
+    cell.value = fc;
+    applyFill(cell, COLOR.headerBg);
+    cell.font = makeHeaderFont();
+    cell.alignment = centerAlign;
+    cell.border = border;
+    col++;
+  });
+
+  // Month group headers — each spans 3 columns
+  const monthStartCols = {};
+  months.forEach((month) => {
+    monthStartCols[month] = col;
+    ws.mergeCells(2, col, 2, col + 2);
+    const cell = ws.getRow(2).getCell(col);
+    cell.value = month;
+    applyFill(cell, COLOR.monthBg);
+    cell.font = makeHeaderFont();
+    cell.alignment = centerAlign;
+    cell.border = border;
+    col += 3;
+  });
+
+  // Summary group header — spans 3 columns
+  const summaryStartCol = col;
+  ws.mergeCells(2, col, 2, col + 2);
+  const summCell = ws.getRow(2).getCell(col);
+  summCell.value = 'Total till Prev Month';
+  applyFill(summCell, COLOR.summaryBg);
+  summCell.font = makeHeaderFont();
+  summCell.alignment = centerAlign;
+  summCell.border = border;
+
+  ws.getRow(2).height = 22;
+
+  // ── ROW 3: Sub-headers ────────────────────────────────────────────────────
+  ws.addRow([]); // row 3
+
+  // Month sub-headers
+  months.forEach((month) => {
+    const sc = monthStartCols[month];
+    ['APP Qty', 'Sales', 'APP %'].forEach((label, i) => {
+      const cell = ws.getRow(3).getCell(sc + i);
+      cell.value = label;
+      applyFill(cell, COLOR.subBg);
+      cell.font = makeSubFont();
+      cell.alignment = centerAlign;
+      cell.border = border;
+    });
+  });
+
+  // Summary sub-headers
+  ['APP Qty', 'Sales', 'APP %'].forEach((label, i) => {
+    const cell = ws.getRow(3).getCell(summaryStartCol + i);
+    cell.value = label;
+    applyFill(cell, COLOR.summSubBg);
+    cell.font = makeSubFont();
+    cell.alignment = centerAlign;
+    cell.border = border;
+  });
+
+  ws.getRow(3).height = 18;
+
+  // ── DATA ROWS ─────────────────────────────────────────────────────────────
+  finalData.forEach((item, rowIdx) => {
+    const rowValues = [];
+
+    fixedCols.forEach((fc) => rowValues.push(item[fc] ?? ''));
+
+    months.forEach((month) => {
+      const appQty = item[`${month} APP Qty`];
+      const sales = item[`${month} Sales`];
+      const appPct = item[`${month} APP %`];
+
+      rowValues.push(appQty != null && appQty !== '' ? Number(appQty) : 0);
+      rowValues.push(sales != null && sales !== '' ? Number(sales) : 0);
+      rowValues.push(appPct != null && appPct !== '' ? Number(appPct) : 0);
+    });
+
+    const cumQty = item['Total till Prev Month APP Qty'];
+    const cumSales = item['Total till Prev Month Sales'];
+    const cumPct = item['Total till Prev Month APP %'];
+
+    rowValues.push(cumQty != null && cumQty !== '' ? Number(cumQty) : 0);
+    rowValues.push(cumSales != null && cumSales !== '' ? Number(cumSales) : 0);
+    rowValues.push(cumPct != null && cumPct !== '' ? Number(cumPct) : 0);
+
+    const excelRow = ws.addRow(rowValues);
+    excelRow.height = 16;
+
+    const isAlt = rowIdx % 2 === 1;
+
+    excelRow.eachCell({ includeEmpty: true }, (cell, colNum) => {
+      cell.font = makeDataFont();
+      cell.border = border;
+
+      const isSummaryCol = colNum >= summaryStartCol;
+
+      if (isSummaryCol) {
+        applyFill(cell, isAlt ? COLOR.altSumRow : COLOR.summSubBg);
+      } else if (isAlt) {
+        applyFill(cell, COLOR.altRow);
+      }
+
+      if (colNum <= fixedCols.length) {
+        cell.alignment = leftAlign;
+      } else {
+        cell.alignment = rightAlign;
+        // Position within group (1=Qty, 2=Sales, 3=%)
+        const posInGroup = ((colNum - fixedCols.length - 1) % 3) + 1;
+        if (posInGroup === 3) {
+          cell.numFmt = '0.00'; // APP %
+        } else {
+          cell.numFmt = '#,##0.000';
+        }
+      }
+    });
+  });
+
+  // ── Column widths ─────────────────────────────────────────────────────────
+  const colWidths = [18, 12, 22, 10, 32, 14, 12, 16]; // 8 fixedCols
+  months.forEach(() => colWidths.push(14, 14, 12));
+  colWidths.push(16, 14, 12); // summary 3 cols
+
+  colWidths.forEach((w, i) => {
+    ws.getColumn(i + 1).width = w;
+  });
+
+  const buffer = await workbook.xlsx.writeBuffer();
+  return Buffer.from(buffer);
+};
+
 module.exports = {
   getMonthYearLabel,
+  getFormattedDateString,
   normalizeItem,
-  generateExcelBuffer
+  generateExcelBuffer,
+  generateGradeWiseExcelBuffer
 };
